@@ -11,6 +11,8 @@ Secretint Demo Site
     npm install
     npm run dev ite
 
+Preview is powered by [Netlify](https://netlify.com/).
+
 ## Contributing
 
 Pull requests and stars are always welcome.

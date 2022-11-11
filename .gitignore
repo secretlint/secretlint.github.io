@@ -222,3 +222,6 @@ fabric.properties
 .history/
 
 
+
+# Local Netlify folder
+.netlify
