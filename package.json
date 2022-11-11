@@ -28,7 +28,7 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
     "prepare": "git config --local core.hooksPath .githooks",
     "dev": "parcel src/index.html",
-    "build": "parcel build --no-scope-hoist --public-url ./ src/index.html",
+    "build": "parcel build --public-url ./ src/index.html",
     "prepublishOnly": "npm run clean && npm run build"
   },
   "dependencies": {
@@ -63,6 +63,5 @@
     "*.{js,jsx,ts,tsx,css}": [
       "prettier --write"
     ]
-  },
-  "sideEffects": false
+  }
 }
