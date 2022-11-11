@@ -19,7 +19,7 @@ export const secretlint = linter(async (view) => {
                 {
                     name: "Documentation",
                     apply: () => {
-                        window.open(`${message.docsUrl}#${message.messageId}`, "_blank");
+                        window.open(message.docsUrl, "_blank");
                     }
                 }
             ]
