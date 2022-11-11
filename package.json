@@ -1,0 +1,70 @@
+{
+  "private": true,
+  "name": "secretlint.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/secretlint/secretlint.github.io/tree/master/",
+  "bugs": {
+    "url": "https://github.com/secretlint/secretlint.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/secretlint/secretlint.github.io.git"
+  },
+  "license": "MIT",
+  "author": "azu",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "module/",
+    "src/"
+  ],
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "test": "mocha \"test/**/*.ts\"",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
+    "prepare": "git config --local core.hooksPath .githooks",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "dependencies": {
+    "@codemirror/lint": "^6.0.0",
+    "@secretlint/core": "^5.3.0",
+    "@secretlint/secretlint-rule-pattern": "^5.3.0",
+    "@secretlint/secretlint-rule-preset-recommend": "^5.3.0",
+    "codemirror": "^6.0.1"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.0",
+    "@types/node": "^18.11.9",
+    "assert": "^2.0.0",
+    "buffer": "^5.7.1",
+    "crypto-browserify": "^3.12.0",
+    "events": "^3.3.0",
+    "lint-staged": "^13.0.3",
+    "mocha": "^10.1.0",
+    "parcel": "^2.8.0",
+    "path-browserify": "^1.0.1",
+    "prettier": "^2.7.1",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "typescript": "^4.8.4"
+  },
+  "prettier": {
+    "singleQuote": false,
+    "printWidth": 120,
+    "tabWidth": 4,
+    "trailingComma": "none"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,css}": [
+      "prettier --write"
+    ]
+  },
+  "sideEffects": false
+}
