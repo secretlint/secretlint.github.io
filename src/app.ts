@@ -9,5 +9,3 @@ new EditorView({
     extensions: [basicSetup, lintGutter(), secretlint],
     parent: editorElement
 });
-
-export {};

@@ -23,13 +23,12 @@
     "module/",
     "src/"
   ],
-  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "test": "mocha \"test/**/*.ts\"",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
     "prepare": "git config --local core.hooksPath .githooks",
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html",
+    "build": "parcel build --no-scope-hoist --public-url ./ src/index.html",
     "prepublishOnly": "npm run clean && npm run build"
   },
   "dependencies": {
