@@ -41,7 +41,7 @@
     "@types/mocha": "^10.0.0",
     "@types/node": "^18.11.9",
     "assert": "^2.0.0",
-    "buffer": "^5.7.1",
+    "buffer": "^6.0.3",
     "crypto-browserify": "^3.12.0",
     "events": "^3.3.0",
     "lint-staged": "^13.0.3",
