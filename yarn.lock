@@ -789,112 +789,112 @@
     chrome-trace-event "^1.0.2"
     nullthrows "^1.1.1"
 
-"@secretlint/core@^6.0.2":
-  version "6.0.2"
-  resolved "https://registry.npmjs.org/@secretlint/core/-/core-6.0.2.tgz"
-  integrity sha512-w1AG1/O+LLPsX67T82Umq3kvHmx1BMZE13jXieeAM7sqQB8bZa54Ri+CfcEkVLbV9C6Wk8UzQf/2CvrEhLP7Eg==
+"@secretlint/core@^6.1.0":
+  version "6.2.0"
+  resolved "https://registry.npmjs.org/@secretlint/core/-/core-6.2.0.tgz"
+  integrity sha512-J2+2EihnICKk9fBmFjD0ylbugtREzGSj9aYekCx/5CbaGXLQK4WQ95rqOw+XmDsJRppWZN+uXiXvhvVpBtAWRA==
   dependencies:
-    "@secretlint/profiler" "^6.0.2"
-    "@secretlint/types" "^6.0.2"
+    "@secretlint/profiler" "^6.2.0"
+    "@secretlint/types" "^6.2.0"
     debug "^4.3.4"
     structured-source "^3.0.2"
 
-"@secretlint/profiler@^6.0.2":
-  version "6.0.2"
-  resolved "https://registry.npmjs.org/@secretlint/profiler/-/profiler-6.0.2.tgz"
-  integrity sha512-xfjYeGb0rac0eEO0KFturnlDl+auqU+VmASKypn3W6Cl/aVJCtfgznKDUCYZVJq3vs8A66IxPopqDX7r2YE3Gg==
+"@secretlint/profiler@^6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmjs.org/@secretlint/profiler/-/profiler-6.2.0.tgz"
+  integrity sha512-wtQguocnwdQdz/RaheoMoDDqoCzHr6LBlciybMHpgJmNAWAFPfge0n2ffrIvpAEZCjAgih5et0qryebMZOjUgg==
 
-"@secretlint/secretlint-rule-aws@^6.0.2":
-  version "6.0.2"
-  resolved "https://registry.npmjs.org/@secretlint/secretlint-rule-aws/-/secretlint-rule-aws-6.0.2.tgz"
-  integrity sha512-XeF5LPTLlxNe65EbgIpZBx+oEW/QtDBSeZ5m4XHoBNClv9KPBdIuMqLEX9aYAFrRLHER5LmL2dgqHLh4vDyEsQ==
+"@secretlint/secretlint-rule-aws@^6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmjs.org/@secretlint/secretlint-rule-aws/-/secretlint-rule-aws-6.2.0.tgz"
+  integrity sha512-Xb0HOCUqaPzTFCxkTM0WCOI0kpILpnynQVY8R3tYCzE3eqe94Y3v5QeyvdoLcPxqjHMH6C3S3oj6sc/GaEZjog==
   dependencies:
-    "@secretlint/types" "^6.0.2"
+    "@secretlint/types" "^6.2.0"
     "@textlint/regexp-string-matcher" "^2.0.2"
     regx "^1.0.4"
 
-"@secretlint/secretlint-rule-basicauth@^6.0.2":
-  version "6.0.2"
-  resolved "https://registry.npmjs.org/@secretlint/secretlint-rule-basicauth/-/secretlint-rule-basicauth-6.0.2.tgz"
-  integrity sha512-tY+XK1W0RZkCWg0y4bgkez1IvRCPnKkB0mlQ8BZiKBpNSBXosLoeocLOsst+3a4VjZSQdwaasCImmgRK1XIvqA==
+"@secretlint/secretlint-rule-basicauth@^6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmjs.org/@secretlint/secretlint-rule-basicauth/-/secretlint-rule-basicauth-6.2.0.tgz"
+  integrity sha512-LwcVjn0Xr0Gryw8gJptlL96vnL2Nwc50lIcHKLZMhXVj9XZvE+jQmllIoRCa3+wu3hg4csW9HR81yMFbPlUTPA==
   dependencies:
-    "@secretlint/types" "^6.0.2"
+    "@secretlint/types" "^6.2.0"
     "@textlint/regexp-string-matcher" "^2.0.2"
 
-"@secretlint/secretlint-rule-filter-comments@^6.0.2":
-  version "6.0.2"
-  resolved "https://registry.npmjs.org/@secretlint/secretlint-rule-filter-comments/-/secretlint-rule-filter-comments-6.0.2.tgz"
-  integrity sha512-o8FU6yzWODiSiTBNJUIvj3InJ7+SBPmH1y43z9hv1YkFv0LN9+1fzswOBU9WGlxE5uRMbodx7OGJbRgi/m6MIg==
+"@secretlint/secretlint-rule-filter-comments@^6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmjs.org/@secretlint/secretlint-rule-filter-comments/-/secretlint-rule-filter-comments-6.2.0.tgz"
+  integrity sha512-hdXXubNAtR15TXYt3Z2Mu/KO7xl+xRT4+wyFhgRfJIG2CSP5GTskVviqQyFt0PePO4nbbeInHOETDcNuN7XAmw==
   dependencies:
-    "@secretlint/types" "^6.0.2"
+    "@secretlint/types" "^6.2.0"
 
-"@secretlint/secretlint-rule-gcp@^6.0.2":
-  version "6.0.2"
-  resolved "https://registry.npmjs.org/@secretlint/secretlint-rule-gcp/-/secretlint-rule-gcp-6.0.2.tgz"
-  integrity sha512-2gN6wfaBeGLnhDoVGfnz8BduF8EONQ9nAxtJOmmoRLf/5V1lBpx6mdHYGAjO8tqsKG+LUcJU6AXD8cM+Lv5mwg==
+"@secretlint/secretlint-rule-gcp@^6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmjs.org/@secretlint/secretlint-rule-gcp/-/secretlint-rule-gcp-6.2.0.tgz"
+  integrity sha512-fXdRVaoCDXzlM63BzvkiltyLQmHjxdIfNcAysLy43F0H/ltw1W3XSx/ppWeaZgvOHEnES9P6o55Kr+olfXxVfw==
   dependencies:
-    "@secretlint/types" "^6.0.2"
+    "@secretlint/types" "^6.2.0"
     "@textlint/regexp-string-matcher" "^2.0.2"
     node-forge "^1.3.1"
 
-"@secretlint/secretlint-rule-github@^6.0.2":
-  version "6.0.2"
-  resolved "https://registry.npmjs.org/@secretlint/secretlint-rule-github/-/secretlint-rule-github-6.0.2.tgz"
-  integrity sha512-4W6eLBg8YylOZbvVPlEuQxQVAnJ0Altpi5WuXoxZAt3v3rLM37inNZ0Rb1MeuRLHG9Q7svy0I+LiqURkLbdBOg==
+"@secretlint/secretlint-rule-github@^6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmjs.org/@secretlint/secretlint-rule-github/-/secretlint-rule-github-6.2.0.tgz"
+  integrity sha512-O9EMKN1jnloYBT3Z54rwciS4ko/14B7RsIjM1CVIv2JXComWBTt795dqGdZwkvqjj9pGTlSlbrYmLfmlyLoRZw==
   dependencies:
-    "@secretlint/types" "^6.0.2"
+    "@secretlint/types" "^6.2.0"
     "@textlint/regexp-string-matcher" "^2.0.2"
 
-"@secretlint/secretlint-rule-npm@^6.0.2":
-  version "6.0.2"
-  resolved "https://registry.npmjs.org/@secretlint/secretlint-rule-npm/-/secretlint-rule-npm-6.0.2.tgz"
-  integrity sha512-4jUQ159AKLTcttS4X1vgppiApcCR1nMq0xZn68ZObfot4X5UGpUhMEKTL+jzWBnEBn7P7EX64KhAGj+Higi64g==
+"@secretlint/secretlint-rule-npm@^6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmjs.org/@secretlint/secretlint-rule-npm/-/secretlint-rule-npm-6.2.0.tgz"
+  integrity sha512-Rg/FtA+kNhQcUAB1DNzNEDUsU80mmvR89dWoz3qJtya6XxDKES9Kg5NZHwtlaIuZPG0LvFoXpBIKsZovHzu5Rw==
   dependencies:
-    "@secretlint/types" "^6.0.2"
+    "@secretlint/types" "^6.2.0"
     "@textlint/regexp-string-matcher" "^2.0.2"
 
-"@secretlint/secretlint-rule-preset-recommend@^6.0.2":
-  version "6.0.2"
-  resolved "https://registry.npmjs.org/@secretlint/secretlint-rule-preset-recommend/-/secretlint-rule-preset-recommend-6.0.2.tgz"
-  integrity sha512-Mm8lwmCfP/V0ensFGHFrZ0zKkGvQKx7HnDKVyQZf52yMnclOOviayGkTvFQmGEEHIPiYWksvtRu/shP/jyGbIw==
+"@secretlint/secretlint-rule-preset-recommend@^6.1.0":
+  version "6.2.0"
+  resolved "https://registry.npmjs.org/@secretlint/secretlint-rule-preset-recommend/-/secretlint-rule-preset-recommend-6.2.0.tgz"
+  integrity sha512-MxO8dJavRSsoKqzXsZ5YOhiGIGHM1hbGd8oAs00fMx2Rg7DRhVU2BiTx7ypzGC4Nr4LChZVET8QLeBeJNpy0Zg==
   dependencies:
-    "@secretlint/secretlint-rule-aws" "^6.0.2"
-    "@secretlint/secretlint-rule-basicauth" "^6.0.2"
-    "@secretlint/secretlint-rule-filter-comments" "^6.0.2"
-    "@secretlint/secretlint-rule-gcp" "^6.0.2"
-    "@secretlint/secretlint-rule-github" "^6.0.2"
-    "@secretlint/secretlint-rule-npm" "^6.0.2"
-    "@secretlint/secretlint-rule-privatekey" "^6.0.2"
-    "@secretlint/secretlint-rule-sendgrid" "^6.0.2"
-    "@secretlint/secretlint-rule-slack" "^6.0.2"
+    "@secretlint/secretlint-rule-aws" "^6.2.0"
+    "@secretlint/secretlint-rule-basicauth" "^6.2.0"
+    "@secretlint/secretlint-rule-filter-comments" "^6.2.0"
+    "@secretlint/secretlint-rule-gcp" "^6.2.0"
+    "@secretlint/secretlint-rule-github" "^6.2.0"
+    "@secretlint/secretlint-rule-npm" "^6.2.0"
+    "@secretlint/secretlint-rule-privatekey" "^6.2.0"
+    "@secretlint/secretlint-rule-sendgrid" "^6.2.0"
+    "@secretlint/secretlint-rule-slack" "^6.2.0"
 
-"@secretlint/secretlint-rule-privatekey@^6.0.2":
-  version "6.0.2"
-  resolved "https://registry.npmjs.org/@secretlint/secretlint-rule-privatekey/-/secretlint-rule-privatekey-6.0.2.tgz"
-  integrity sha512-/Od0wO2qit+3U/BfzkoAYRXvsMKS64BVoEHFe1+K301BM3tQPx1C7pz3NBUexnTGYZbkexWrr0NjgiIYw8Bf5A==
+"@secretlint/secretlint-rule-privatekey@^6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmjs.org/@secretlint/secretlint-rule-privatekey/-/secretlint-rule-privatekey-6.2.0.tgz"
+  integrity sha512-sNfryaQp0OnDTry348KD35XFa0S03gXQuSFlVG22IU/NUqwh3t9lzsYO0Q3TthgpJzDM8o8Ni5j5nYHYA41++Q==
   dependencies:
     "@textlint/regexp-string-matcher" "^2.0.2"
 
-"@secretlint/secretlint-rule-sendgrid@^6.0.2":
-  version "6.0.2"
-  resolved "https://registry.npmjs.org/@secretlint/secretlint-rule-sendgrid/-/secretlint-rule-sendgrid-6.0.2.tgz"
-  integrity sha512-Qb3pU+ug8GQg/KJ5XLr8Hr5nQdrruLu2dzRf4w2AaQLfAwrtT3si20gSPkYVpNx3ZkP5O4CNavZajAZe7wb0FA==
+"@secretlint/secretlint-rule-sendgrid@^6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmjs.org/@secretlint/secretlint-rule-sendgrid/-/secretlint-rule-sendgrid-6.2.0.tgz"
+  integrity sha512-X4GsD6xz5SMHC/2czBidaVTUHPD0zFwpSbZY6ahcQ1m9B6ssdmSn43QfuRvPHAjj53IyYlcXusGVhab2sbP71A==
   dependencies:
-    "@secretlint/types" "^6.0.2"
+    "@secretlint/types" "^6.2.0"
     "@textlint/regexp-string-matcher" "^2.0.2"
 
-"@secretlint/secretlint-rule-slack@^6.0.2":
-  version "6.0.2"
-  resolved "https://registry.npmjs.org/@secretlint/secretlint-rule-slack/-/secretlint-rule-slack-6.0.2.tgz"
-  integrity sha512-Llp8U4OxZOnhG6GB3dXKSmXNlrZdCGQE2FT0DsuBsNc+WuwIx6lg+gVWAyYorRBzcY2YidawduQk/iSjcXxTBg==
+"@secretlint/secretlint-rule-slack@^6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmjs.org/@secretlint/secretlint-rule-slack/-/secretlint-rule-slack-6.2.0.tgz"
+  integrity sha512-x8uZmUFt+K51ZCuQYFSdh5SJ7ZHDEVu0tE5Wckk9mWgogLk9jvOxPWfZkFFlpiJLNo+w5O8EujoIZij+ef/BXw==
   dependencies:
-    "@secretlint/types" "^6.0.2"
+    "@secretlint/types" "^6.2.0"
     "@textlint/regexp-string-matcher" "^2.0.2"
 
-"@secretlint/types@^6.0.2":
-  version "6.0.2"
-  resolved "https://registry.npmjs.org/@secretlint/types/-/types-6.0.2.tgz"
-  integrity sha512-Cl6qAWoKbGlhV0TylhIi+zbRoay9hOvG6cg1hzZfAh9sC4LMtPBcbnGvYutM6LgB2VoRSTtCHZtIBOZHm9OxWw==
+"@secretlint/types@^6.2.0":
+  version "6.2.0"
+  resolved "https://registry.npmjs.org/@secretlint/types/-/types-6.2.0.tgz"
+  integrity sha512-WsQW6/NlR381Bna67Q4aH0npINRDElufUoUG5Ve5cvAmMPWltiQ+8PUCx4HaP03BQjlcy2/dchOhcu4aPDcxBg==
 
 "@swc/helpers@^0.4.12":
   version "0.4.14"
