@@ -789,7 +789,7 @@
     chrome-trace-event "^1.0.2"
     nullthrows "^1.1.1"
 
-"@secretlint/core@^6.1.0":
+"@secretlint/core@^6.2.0":
   version "6.2.0"
   resolved "https://registry.npmjs.org/@secretlint/core/-/core-6.2.0.tgz"
   integrity sha512-J2+2EihnICKk9fBmFjD0ylbugtREzGSj9aYekCx/5CbaGXLQK4WQ95rqOw+XmDsJRppWZN+uXiXvhvVpBtAWRA==
@@ -853,7 +853,7 @@
     "@secretlint/types" "^6.2.0"
     "@textlint/regexp-string-matcher" "^2.0.2"
 
-"@secretlint/secretlint-rule-preset-recommend@^6.1.0":
+"@secretlint/secretlint-rule-preset-recommend@^6.2.0":
   version "6.2.0"
   resolved "https://registry.npmjs.org/@secretlint/secretlint-rule-preset-recommend/-/secretlint-rule-preset-recommend-6.2.0.tgz"
   integrity sha512-MxO8dJavRSsoKqzXsZ5YOhiGIGHM1hbGd8oAs00fMx2Rg7DRhVU2BiTx7ypzGC4Nr4LChZVET8QLeBeJNpy0Zg==
