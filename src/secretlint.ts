@@ -1,9 +1,8 @@
 import { lintSource } from "@secretlint/core";
-// @ts-expect-error: no types
 import { creator } from "@secretlint/secretlint-rule-preset-recommend";
 import { Diagnostic, linter } from "@codemirror/lint";
 
-// CodeMirror Linter implemetnion
+// CodeMirror Linter implementation
 export const secretlint = linter(async (view) => {
     const results = await lintContent({
         content: view.state.doc.toString(),
@@ -19,7 +18,7 @@ export const secretlint = linter(async (view) => {
                 {
                     name: "Documentation",
                     apply: () => {
-                        window.open(message.docsUrl, "_blank");
+                        window.open(message.docsUrl, "_blank noopener noreferrer");
                     }
                 }
             ]
