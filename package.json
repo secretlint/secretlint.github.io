@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "@codemirror/lint": "^6.2.0",
-    "@secretlint/core": "^6.2.3",
+    "@secretlint/core": "^7.0.4",
     "@secretlint/secretlint-rule-preset-recommend": "^6.2.3",
     "codemirror": "^6.0.1"
   },
