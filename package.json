@@ -34,7 +34,7 @@
   "dependencies": {
     "@codemirror/lint": "^6.2.0",
     "@secretlint/core": "^6.2.3",
-    "@secretlint/secretlint-rule-preset-recommend": "^6.2.3",
+    "@secretlint/secretlint-rule-preset-recommend": "^7.0.4",
     "codemirror": "^6.0.1"
   },
   "devDependencies": {
