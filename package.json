@@ -46,7 +46,7 @@
     "events": "^3.3.0",
     "lint-staged": "^16.1.2",
     "mocha": "^11.4.0",
-    "parcel": "^2.9.3",
+    "parcel": "^2.15.4",
     "path-browserify": "^1.0.1",
     "prettier": "^3.0.1",
     "process": "^0.11.10",
