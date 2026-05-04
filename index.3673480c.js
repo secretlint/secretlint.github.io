@@ -7,7 +7,7 @@ URL: https://user:pass@example.com
 
 GitHub Token: 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
 
-SendGrid: "SG.APhb3zgjtx3hajdas1TjBB.H7Sgbba3afgKSDyB442aDK0kpGO3SD332313-L5528Kewhere"
+SendGrid: "SG.APhb3zgjtx3hajdas1TjBB.H7Sgbba3afgKSDyB442aDK0kpGO3SD332313-L5528K"
 
 AWS_SECRET_ACCESS_KEY = wJalrXUtnFEMI/K7MDENG/bPxRfiCYSECRETSKEY
 
@@ -35,4 +35,4 @@ H4PSJT5bvaEhxRj7QCwonoX4ZpV0beTnzloS55Z65g==
 -----END RSA PRIVATE KEY-----
 
     `,u$=document.getElementById("editor");new iQ({doc:uH,extensions:[us,function(t={}){return[ur.of(t),c7,c6,un,ue]}(),uz],parent:u$});
-//# sourceMappingURL=index.c2dfae59.js.map
+//# sourceMappingURL=index.3673480c.js.map
