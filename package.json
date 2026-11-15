@@ -3,7 +3,7 @@
   "name": "secretlint.github.io",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/secretlint/secretlint.github.io/tree/master/",
+  "homepage": "https://github.com/secretlint/secretlint.github.io/tree/main/",
   "bugs": {
     "url": "https://github.com/secretlint/secretlint.github.io/issues"
   },
@@ -33,8 +33,7 @@
   },
   "dependencies": {
     "@codemirror/lint": "^6.4.0",
-    "@secretlint/core": "^11.0.2",
-    "@secretlint/secretlint-rule-preset-recommend": "^11.0.2",
+    "@secretlint/core": "^14.0.0",
     "codemirror": "^6.0.1"
   },
   "devDependencies": {
@@ -63,5 +62,8 @@
     "*.{js,jsx,ts,tsx,css}": [
       "prettier --write"
     ]
+  },
+  "@parcel/resolver-default": {
+    "packageExports": true
   }
 }

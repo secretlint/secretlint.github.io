@@ -9,7 +9,7 @@ Secretint Demo Site
 ## Development
 
     npm install
-    npm run dev ite
+    npm run dev
 
 Preview is powered by [Netlify](https://netlify.com/).
 
