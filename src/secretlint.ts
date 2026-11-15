@@ -1,5 +1,5 @@
 import { lintSource } from "@secretlint/core";
-import { creator } from "@secretlint/secretlint-rule-preset-recommend";
+import { presetRecommend } from "@secretlint/core/builtin";
 import { Diagnostic, linter } from "@codemirror/lint";
 
 // CodeMirror Linter implementation
@@ -30,7 +30,7 @@ export const lintContent = ({ content, url }: { content: string; url: string }) 
     const rules = [
         {
             id: "@secretlint/secretlint-rule-preset-recommend",
-            rule: creator
+            rule: presetRecommend
         }
     ];
     return lintSource({
@@ -38,7 +38,8 @@ export const lintContent = ({ content, url }: { content: string; url: string }) 
             contentType: "text",
             content,
             filePath: url,
-            ext: url.split(".").pop() ?? ""
+            // Same as @secretlint/source-creator in Node.js: the extension with the dot, such as ".txt"
+            ext: /\.[^./\\]+$/.exec(url)?.[0] ?? ""
         },
         options: {
             config: {
